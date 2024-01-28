@@ -1,7 +1,8 @@
 cchardet>=2.1.1
 lasio>=0.19
-numpy>=0.14.2
-scipy>=1.0.0
+numpy>=1.22.2
+scipy>=1.10.0rc1
 pandas>=0.22.0
 matplotlib>=2.2.0
-scikit-learn>=0.19.1
+scikit-learn>=0.24.2
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
